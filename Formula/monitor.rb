@@ -2,6 +2,7 @@ class Monitor < Formula
   desc "Personal infrastructure monitoring with self-describing probes"
   homepage "https://github.com/jandubois/monitor"
   version "0.4.0"
+  license "Apache-2.0"
 
   on_macos do
     on_arm do
