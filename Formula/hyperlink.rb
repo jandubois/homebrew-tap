@@ -1,9 +1,9 @@
 class Hyperlink < Formula
   desc "Extract hyperlinks from browser tabs as markdown"
   homepage "https://github.com/jandubois/hyperlink"
-  url "https://github.com/jandubois/hyperlink/releases/download/v0.2.1/hyperlink-macos-arm64.zip"
-  version "0.2.1"
-  sha256 "feaba8ab44897926352c4c7343c636f31854bafb186fb487a36772debb8f989b"
+  url "https://github.com/jandubois/hyperlink/releases/download/v0.2.2/hyperlink-macos-arm64.zip"
+  version "0.2.2"
+  sha256 "fb514e349d12bea0f11216c567c2dee3522cfb9cc4d09202372668e01dbe4123"
   license "Apache-2.0"
 
   depends_on arch: :arm64
