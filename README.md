@@ -9,6 +9,7 @@ brew tap jandubois/tap
 brew install git-lint
 brew install hyperlink
 brew install monitor
+brew install rss-feed
 brew install web-receipts
 ```
 
@@ -44,4 +45,5 @@ brew install web-receipts
 | [git-lint](https://github.com/jandubois/git-lint) | Check git repo health and fix violations |
 | [hyperlink](https://github.com/jandubois/hyperlink) | Extract hyperlinks from browser tabs as markdown |
 | [monitor](https://github.com/jandubois/monitor) | Personal infrastructure monitoring with self-describing probes |
+| [rss-feed](https://github.com/jandubois/rss-feed) | Generate RSS feeds from websites |
 | [web-receipts](https://github.com/jandubois/web-receipts) | Save the current browser tab as a PDF receipt |
