@@ -1,28 +1,28 @@
 class Monitor < Formula
   desc "Personal infrastructure monitoring with self-describing probes"
   homepage "https://github.com/jandubois/monitor"
-  version "0.4.2"
+  version "0.4.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/jandubois/monitor/releases/download/v0.4.2/monitor-darwin-arm64"
-      sha256 "a6a3a3923b0c5ca8bc22b30320b84f0e908d75425c50d9acbd1e05fb57cd2fb3"
+      url "https://github.com/jandubois/monitor/releases/download/v0.4.3/monitor-darwin-arm64"
+      sha256 "c33fcec5049716fe825ea686e70b51a99e00240728585102525d673426749aba"
     end
     on_intel do
-      url "https://github.com/jandubois/monitor/releases/download/v0.4.2/monitor-darwin-amd64"
-      sha256 "79fd7815572d9ef3b6095ed1bc2d806ccc9f372b014a66987131b300ec90287f"
+      url "https://github.com/jandubois/monitor/releases/download/v0.4.3/monitor-darwin-amd64"
+      sha256 "a081dbc92905ae40166ff23e631617dbc1d7c116f20cb0f5322e619ea36f9dfa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jandubois/monitor/releases/download/v0.4.2/monitor-linux-arm64"
-      sha256 "10592fcd1400716ac600a4c9d4bdc0bd67d021bf2ef484fcbe8de5dd30f0e864"
+      url "https://github.com/jandubois/monitor/releases/download/v0.4.3/monitor-linux-arm64"
+      sha256 "dbc65f2cfd9975cc73886653fb9df278ec8a4b0e77bf2f70bc8b9cdcd1bbc857"
     end
     on_intel do
-      url "https://github.com/jandubois/monitor/releases/download/v0.4.2/monitor-linux-amd64"
-      sha256 "05c42bd2dbc62b160b3e39fe7129f837d2a08830f6d330a358749722f741cff1"
+      url "https://github.com/jandubois/monitor/releases/download/v0.4.3/monitor-linux-amd64"
+      sha256 "ec015085607031e946c96224d0c1e08d0d8337502585049eec00c91d9a1de9e2"
     end
   end
 
