@@ -1,9 +1,9 @@
 class RssFeed < Formula
   desc "Generate RSS feeds from websites"
   homepage "https://github.com/jandubois/rss-feed"
-  url "https://github.com/jandubois/rss-feed/releases/download/v0.2.0/rss-feed-darwin-arm64"
-  version "0.2.0"
-  sha256 "f1bc58f6cfc0b509fd096f4c98b52532a4dcbadb26210e069a63f6f794895ff2"
+  url "https://github.com/jandubois/rss-feed/releases/download/v0.3.0/rss-feed-darwin-arm64"
+  version "0.3.0"
+  sha256 "61a9e329aea0882887ab4aa95cd9c36fd66de92d2afb7c55f81479023338afd8"
   license "Apache-2.0"
 
   depends_on arch: :arm64
