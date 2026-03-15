@@ -1,28 +1,28 @@
 class Nobin < Formula
   desc "Scan a directory tree for files containing non-printable or invisible characters"
   homepage "https://github.com/jandubois/nobin"
-  version "0.4.0"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/jandubois/nobin/releases/download/v0.4.0/nobin-darwin-arm64"
-      sha256 "c4b2e00dd44d7955a8dcaa4572bceebcf6789da1c5b0fc13c8fe66d11ece8e77"
+      url "https://github.com/jandubois/nobin/releases/download/v0.5.0/nobin-darwin-arm64"
+      sha256 "a1c3617ee42c909d36ae41beb5f2c092225243791207e8a63754803c67c98141"
     end
     on_intel do
-      url "https://github.com/jandubois/nobin/releases/download/v0.4.0/nobin-darwin-amd64"
-      sha256 "bd4e87efb771c4c079fb946c216413e92b5ebf4811db64c4aee4b8d3da648c0f"
+      url "https://github.com/jandubois/nobin/releases/download/v0.5.0/nobin-darwin-amd64"
+      sha256 "5023e699c19501db7d4a48deed628223878a2a1cb76a2be744a6d0fc80954f3d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jandubois/nobin/releases/download/v0.4.0/nobin-linux-arm64"
-      sha256 "e6c1cdba98de594960c7630b7e10e9bc7865196595957f84e98ad075d308ff69"
+      url "https://github.com/jandubois/nobin/releases/download/v0.5.0/nobin-linux-arm64"
+      sha256 "fb9bde9e3e9784941725e7fa645be07420768d1c5f8d836337f0024c019ac15e"
     end
     on_intel do
-      url "https://github.com/jandubois/nobin/releases/download/v0.4.0/nobin-linux-amd64"
-      sha256 "5d27d7081306a07450f47e9535a10b5c9c40b577dfbab29554f12b16d1b6a589"
+      url "https://github.com/jandubois/nobin/releases/download/v0.5.0/nobin-linux-amd64"
+      sha256 "fad2c8a30114e4731d2ed65c2586aa989ed5e13e08d92f1101543126af668c00"
     end
   end
 
