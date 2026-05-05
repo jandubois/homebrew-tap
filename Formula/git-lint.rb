@@ -1,28 +1,28 @@
 class GitLint < Formula
   desc "Check git repo health and fix violations"
   homepage "https://github.com/jandubois/git-lint"
-  version "0.12.0"
+  version "0.13.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/jandubois/git-lint/releases/download/v0.12.0/git-lint-darwin-arm64"
-      sha256 "a0d369dcf95c280d602da0ff41763020f00f3f310e0d7771cf244de6a29b27a3"
+      url "https://github.com/jandubois/git-lint/releases/download/v0.13.0/git-lint-darwin-arm64"
+      sha256 "2f1983c08ade1fb2722362db25176064be31882d2e8197f6af2db437325029a0"
     end
     on_intel do
-      url "https://github.com/jandubois/git-lint/releases/download/v0.12.0/git-lint-darwin-amd64"
-      sha256 "626c364b95887bc1201fea197d8076fa504afd9db72a9ab619eb15f698193724"
+      url "https://github.com/jandubois/git-lint/releases/download/v0.13.0/git-lint-darwin-amd64"
+      sha256 "a8165460883f581093117db5c3196bbc25f0a938e1c7adf37a281453429c3808"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jandubois/git-lint/releases/download/v0.12.0/git-lint-linux-arm64"
-      sha256 "4c2c22b7e9a7849b50f6a5bc8df951c7e11d51e38bc62dd631619f60d0da49ee"
+      url "https://github.com/jandubois/git-lint/releases/download/v0.13.0/git-lint-linux-arm64"
+      sha256 "bfe6a79d3521b86dc7bd5d488f208cd9d257be20fb17cea1661fcec6db6a4767"
     end
     on_intel do
-      url "https://github.com/jandubois/git-lint/releases/download/v0.12.0/git-lint-linux-amd64"
-      sha256 "f9c70900c866fc4b9243b7a73e1b27e7234e99cb7e2ab266b698fecaf0a40f67"
+      url "https://github.com/jandubois/git-lint/releases/download/v0.13.0/git-lint-linux-amd64"
+      sha256 "3bc0e24fbe37eb73e954b5d740e32dbccfdc03d56763f42b4f27d95482ea2552"
     end
   end
 
